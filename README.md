@@ -40,7 +40,7 @@ python main.py
 Once the application window is open, you can begin by entering relations and performing queries as described above.
 
 
-
+This coding project was a bonus assignment for COMP3005 at Carleton University. 
 
 
 ASSIGNMENT INSTRUCTIONS:
