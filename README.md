@@ -2,8 +2,7 @@
 
 Relational Algebra Processor
 
-![image](https://github.com/JJPelk/Relational-Algebra-Query-Processor/assets/146587699/9ba2b358-297f-48a3-884d-3c3d479de374)
-
+![image](https://github.com/JJPelk/Relational-Algebra-Query-Processor/assets/146587699/d3d24da6-eaf2-49a5-a2bb-a684d4c33dd5)
 
 This application provides a graphical user interface for performing relational algebra operations on user-defined relations. A dynamic table allows users to input tuple data hassle free and without syntax, resizing to any table size neccesarry. 
 
