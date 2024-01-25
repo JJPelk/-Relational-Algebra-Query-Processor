@@ -4,13 +4,13 @@
 
 This application provides a graphical user interface for performing relational algebra operations on user-defined relations. A dynamic table allows users to input tuple data hassle free and without syntax, resizing to any table size neccesarry. 
 
-Features:
+**Features:**
 - Add and remove rows and columns to define relations.
 - Enter the relation name, attributes, and tuples via a dynamic table.
 - Perform relational algebra operations such as select, project, join, union, set difference, and intersection.
 - Display results of the relational algebra queries.
 
-Supported Operations:
+**Supported Operations:**
 - select: Filters tuples from a relation based on a condition (e.g., "select Age>30(Employees)").
 - project: Reduces a relation to certain attributes (e.g., "project(Employees, EID, Name)").
 - join: Combines two relations based on a common attribute (e.g., "join(Employees, Departments)") or "join(Employees, Departments, EID == ManagerEID)" 
@@ -19,18 +19,18 @@ Supported Operations:
 - set_difference: Finds tuples in one relation but not in another (e.g., "set_difference(Relation1, Relation2)").
 - intersection: Finds tuples common to two relations (e.g., "intersection(Relation1, Relation2)").
 
-Syntax:
+**Syntax:**
 - Relations are entered in a tabular format with the first text box specifying the relation name.
 - Queries are entered in a text box below the relation input area using the format "operation(arguments)".
 
-Installation:
+**Installation:**
 To run the Relational Algebra Processor, ensure that Python is installed on your system. Then, install the required packages using the command:
 
 pip install -r requirements.txt
 
 The requirements.txt file includes all the necessary packages. Ensure you are in the same directory as the requirements.txt file when running the pip install command.
 
-Usage:
+**Usage:**
 Run the program by executing the main.py script:
 
 python main.py
@@ -41,7 +41,7 @@ Once the application window is open, you can begin by entering relations and per
 This coding project was a bonus assignment for COMP3005 at Carleton University. 
 
 
-ASSIGNMENT INSTRUCTIONS:
+**ASSIGNMENT INSTRUCTIONS:**
 
 "Instructions
 Students are tasked with designing a system similar to "Relax" that is capable of accepting text representing relations and relational algebra queries.
