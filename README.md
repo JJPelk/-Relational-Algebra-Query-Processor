@@ -67,9 +67,4 @@ Grading Criteria:
 The system must be general. It is unacceptable to submit a system that only works with hard-coded examples.
 Your system should support at least the following operations: selection, projection, join, and set operators. If not, please do not submit it.
 Create a video illustrating the functionality of your system.
-Upload your code to GitHub and share the link in Brightspace.
-Points and Benefits: The project carries a weightage of 5 extra points. While there's no penalty for not submitting, students who complete this project can utilize these extra points to cover potential losses in other assessments such as assignments and the final project.
-
-Deadline: You have 2 weeks to complete this project.
-
-Note: You're welcome to seek assistance from ChatGPT, but ensure you comprehend every piece of code you write, as there will be a discussion about it. Only a few students might be able to complete this challenge, and I will personally grade those submissions."
+Upload your code to GitHub and share the link in Brightspace."
