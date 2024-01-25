@@ -13,7 +13,8 @@ Features:
 Supported Operations:
 - select: Filters tuples from a relation based on a condition (e.g., "select Age>30(Employees)").
 - project: Reduces a relation to certain attributes (e.g., "project(Employees, EID, Name)").
-- join: Combines two relations based on a common attribute (e.g., "join(Employees, Departments)").
+- join: Combines two relations based on a common attribute (e.g., "join(Employees, Departments)") or "join(Employees, Departments, EID == ManagerEID)" 
+  for joins without common columns).
 - union: Combines two relations with the same schema (e.g., "union(Relation1, Relation2)").
 - set_difference: Finds tuples in one relation but not in another (e.g., "set_difference(Relation1, Relation2)").
 - intersection: Finds tuples common to two relations (e.g., "intersection(Relation1, Relation2)").
